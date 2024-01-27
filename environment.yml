@@ -3,8 +3,8 @@ channels:
   - cnapy
   - conda-forge
   - defaults
-  - Gurobi
-  - IBMDecisionOptimization
+  # - Gurobi
+  # - IBMDecisionOptimization
 dependencies:
   - pytest=7.2
   - pylint=2.15
@@ -24,7 +24,7 @@ dependencies:
   - optlang_enumerator>=0.0.9
   - straindesign>=1.9
   - nest-asyncio
-  - gurobi
-  - cplex
+  # - gurobi
+  # - cplex
   - numpy=1.23
   - openpyxl
